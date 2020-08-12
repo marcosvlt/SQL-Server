@@ -23,7 +23,7 @@ GO
 ALTER DATABASE [DATABASE_NAME] SET RECOVERY SIMPLE WITH NO_WAIT
 GO
 ```
-# Shirink database
+### Shirink database
 
 ```SQL
 USE [Qualitor_SebraePR]
