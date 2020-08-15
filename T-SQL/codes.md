@@ -11,7 +11,7 @@ GO
 ### Truncate a table
 
 ```SQL
-USE[Nome_do_banco]
+USE[DATABASE_NAME]
 TRUNCATE TABLE tablename
 ```
 
@@ -26,7 +26,7 @@ GO
 ### Shirink database
 
 ```SQL
-USE [Qualitor_SebraePR]
+USE [DATABASE_NAME]
 GO
 DBCC SHRINKDATABASE(N'DATABASE_NAME' )
 GO
