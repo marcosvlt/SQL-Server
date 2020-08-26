@@ -110,3 +110,8 @@ SET SINGLE_USER
 WITH ROLLBACK IMMEDIATE
 GO
 ```
+### Check Size
+```SQL
+USE [DATABASE_NAME]
+EXEC sp_spaceused;
+```
