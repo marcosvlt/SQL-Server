@@ -83,3 +83,20 @@ GO
 ALTER ROLE [db_owner] ADD MEMBER [LOGIN_NAME]
 GO
 ```
+
+### Set online
+```SQL
+USE [master]
+GO 
+ALTER DATABASE [DATABASE_NAME] SET ONLINE
+GO
+```
+
+### Multi-user
+```SQL
+USE [master]
+GO
+ALTER DATABASE [DATABASE_NAME]
+SET MULTI_USER;
+GO
+```
